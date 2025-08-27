@@ -1,4 +1,4 @@
-# 2025/2026 Programmin (in Python) for Chemistry @ UniMI
+# 2025/2026 Programming (in Python) for Chemistry @ UniMI
 The course introduces students to imperative programming by referring to the Python language.
 The course is divided in two parts: the first presents Python and its object-oriented features,
 the second focuses on libraries that can be useful in scientific computation and data analysis,
