@@ -18,6 +18,7 @@ a working Python/Jupyter or VSCode. If you prefer working "in the cloud", you wi
 to setup a Google Colab account.
 
 ## Course schedule (tentative)
+
 | Day  | Hour  | Room  | Topic  |
 |---|---|---|---|
 | Tue 23/09/2025  | 08:30-10:30  | TBA  | Lec01  |
