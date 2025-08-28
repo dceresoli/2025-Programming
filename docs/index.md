@@ -1,4 +1,4 @@
-# 2025/2026 Programming for Chemistry
+# Programming for Chemistry
 The course introduces students to imperative programming by referring to the Python language.
 The course is divided in two parts: the first presents [Python](https://www.python.org) and its object-oriented features,
 the second focuses on libraries that can be useful in scientific computation and data analysis,
@@ -16,6 +16,14 @@ in particular [NumPy](https://numpy.org) and [SciPy](https://scipy.org).
 You are free to bring your own laptop. In this case, on first lecture you'll be required to setup
 a working Python system with [Jupyter](https://jupyter.org) or [VSCode](https://code.visualstudio.com).
 If you prefer working *in the cloud*, you will be requested to setup a [Google Colab](https://colab.research.google.com/) account.
+
+## Text book
+There are plenty of Python books/tutorial/course available for free, on many different topics.
+For example, a good book is [How to think like a computer scientist in Python 3](https://openbookproject.net/thinkcs/python/english3e/)
+
+## Exam
+Because of AI code assistants (ChatGPT, Claude, Gemini, ...) the exam will be individual and it will
+consist in few general questions + coding a simple algorithm.
 
 ## Course schedule (tentative)
 
