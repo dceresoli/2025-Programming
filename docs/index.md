@@ -2,7 +2,7 @@
 The course introduces students to imperative programming by referring to the Python language.
 The course is divided in two parts: the first presents [Python](https://www.python.org) and its object-oriented features,
 the second focuses on libraries that can be useful in scientific computation and data analysis,
-in particular (NumPy)[https://numpy.org) and [SciPy](https://scipy.org).
+in particular [NumPy](https://numpy.org) and [SciPy](https://scipy.org).
 
 **Where:** Computer room to be announced
 
