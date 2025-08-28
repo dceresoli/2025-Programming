@@ -1,1 +1,4 @@
 theme: jekyll-theme-minimal
+
+show_downloads: true
+site.logo: "_docs/logo.png"
