@@ -32,10 +32,10 @@ consist in few general questions + coding a simple algorithm.
 | Tue 23/09/2025  | 08:30-10:30  | TBA  | 01: Introduction to Python and tools  |
 | Fri 26/09/2025  | 08:30-10:30  | TBA  | 02: Variables, data types, operators, conditionals, loops   |
 | Tue 30/09/2025  | 08:30-10:30  | TBA  | 03: Functions #1: parameters, scope, return values  |
-| Fri 03/10/2025  | 08:30-10:30  | TBA  | 04: Functions #2: recursive, passing functions to functions  |
+| Fri 03/10/2025  | 08:30-10:30  | TBA  | 04: Functions #2: recursion, passing functions to functions  |
 | Tue 07/10/2025  | 08:30-10:30  | TBA  | 05: Strings, lists, tuples, sets, dictionaries |
 | Fri 10/10/2025  | 08:30-10:30  | TBA  | 06: String processing, comprehensions, sorting, random numbers |
-| Tue 14/10/2025  | 08:30-10:30  | TBA  | 07: Files I/O  |
+| Tue 14/10/2025  | 08:30-10:30  | TBA  | 07: Files I/O, text processing  |
 | Fri 17/10/2025  | 08:30-10:30  | TBA  | 08: Object Oriented Programming #1  |
 | Tue 21/10/2025  | 08:30-10:30  | TBA  | 09: Object Oriented Programming #2  |
 | Fri 24/10/2025  | 08:30-10:30  | TBA  | 10: Object Oriented Programming #3  |
