@@ -1,4 +1,7 @@
 theme: jekyll-theme-minimal
 
+title: "2025-Programming"
+description: ""
+
 show_downloads: true
-site.logo: docs/logo.png
+site.logo: logo.png
