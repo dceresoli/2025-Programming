@@ -1,2 +1,5 @@
-# 2025_Programming
-2025-2026 Programming for Chemistry course at the University of Milan
+# 2025-2026 Programming for Chemistry course at the University of Milan
+This repository contains the slides and the Jupyter notebook for the classes.
+
+You can find the calendar of the lectures, info and last-minute announcements
+[here](https://dceresoli.github.io/2025-Programming).
