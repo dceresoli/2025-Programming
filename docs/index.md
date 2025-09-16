@@ -4,9 +4,9 @@ The course is divided in two parts: the first presents [Python](https://www.pyth
 the second focuses on libraries that can be useful in scientific computation and data analysis,
 in particular [NumPy](https://numpy.org) and [SciPy](https://scipy.org).
 
-**Where:** Computer room to be announced
+**Where:** Computer room 310, settore didattico, via Celoria
 
-**When:**  Tuesdays and Fridays 08:30-10:30 
+**When:**  Tuesdays and Fridays 08:30-10:30, starting from **Friday 26/09/2025**
 
 **What:**  48 hours (24 lab-lectures, 2 hours each)
 
@@ -29,29 +29,29 @@ consist in few general questions + coding a simple algorithm.
 
 | Day  | Hour  | Room  | Topic  |
 |---|---|---|---|
-| Tue 23/09/2025  | 08:30-10:30  | TBA  | 01: Introduction to Python and tools  |
-| Fri 26/09/2025  | 08:30-10:30  | TBA  | 02: Variables, data types, operators, conditionals, loops   |
-| Tue 30/09/2025  | 08:30-10:30  | TBA  | 03: Functions #1: parameters, scope, return values  |
-| Fri 03/10/2025  | 08:30-10:30  | TBA  | 04: Functions #2: recursion, passing functions to functions  |
-| Tue 07/10/2025  | 08:30-10:30  | TBA  | 05: Strings, lists, tuples, sets, dictionaries |
-| Fri 10/10/2025  | 08:30-10:30  | TBA  | 06: String processing, comprehensions, sorting, random numbers |
-| Tue 14/10/2025  | 08:30-10:30  | TBA  | 07: Files I/O, text processing  |
-| Fri 17/10/2025  | 08:30-10:30  | TBA  | 08: Object Oriented Programming #1  |
-| Tue 21/10/2025  | 08:30-10:30  | TBA  | 09: Object Oriented Programming #2  |
-| Fri 24/10/2025  | 08:30-10:30  | TBA  | 10: Object Oriented Programming #3  |
-| Tue 28/10/2025  | 08:30-10:30  | TBA  | 11: Let's code a game  |
-| Fri 31/10/2025  | 08:30-10:30  | TBA  | 12: Free programming practice #1  |
-| Fri 07/11/2025  | 08:30-10:30  | TBA  | 13: NumPy  |
-| Tue 10/11/2025  | 08:30-10:30  | TBA  | 14: Numpy + Matplotlib  |
-| Fri 14/11/2025  | 08:30-10:30  | TBA  | 15: SciPy  |
-| Tue 17/11/2025  | 08:30-10:30  | TBA  | 16: Applications to chemistry  |
-| Fri 21/11/2025  | 08:30-10:30  | TBA  | 17: SymPy *(who needs Mathematica?)*  |
-| Tue 24/11/2025  | 08:30-10:30  | TBA  | 18: Image processing  |
-| Fri 28/11/2025  | 08:30-10:30  | TBA  | 19: Fourier series *(bring headphones)*  |
-| Tue 02/12/2025  | 08:30-10:30  | TBA  | 20: ASE  |
-| Fri 05/12/2025  | 08:30-10:30  | TBA  | 21:  |
-| Tue 09/12/2025  | 08:30-10:30  | TBA  | 22:  |
-| Fri 12/12/2025  | 08:30-10:30  | TBA  | 23:  |
-| Tue 16/12/2025  | 08:30-10:30  | TBA  | 24: Free programming practice #2 & Farewell |
+| 26/09/2025  | 08:30-10:30  | 310  | 01: Introduction to Python and tools  |
+| 30/09/2025  | 08:30-10:30  | 310  | 02: Variables, data types, operators, conditionals, loops   |
+| 03/10/2025  | 08:30-10:30  | 310  | 03: Lists, tuples, sets, dictionaries, strings  |
+| 07/10/2025  | 08:30-10:30  | 310  | 04: Functions: parameters, scope, return values  |
+| 10/10/2025  | 08:30-10:30  | 310  | 05: Advanced functions: recursion, passing functions to functions, lambdas |
+| 14/10/2025  | 08:30-10:30  | 310  | 06: Misc topics: random numbers, file I/O, text processing |
+| 17/10/2025  | 08:30-10:30  | 310  | 07: Free programming practice #1, Q&A  |
+| 21/10/2025  | 08:30-10:30  | 310  | 08: Object Oriented Programming #1  |
+| 24/10/2025  | 08:30-10:30  | 310  | 09: Object Oriented Programming #2  |
+| 28/10/2025  | 08:30-10:30  | 310  | 10: Object Oriented Programming #3  |
+| 31/10/2025  | 08:30-10:30  | 310  | 11: Let's code a game  |
+| 07/11/2025  | 08:30-10:30  | 310  | 12: Free programming practice #2, Q&A  |
+| 11/11/2025  | 08:30-10:30  | 310  | 13: NumPy  |
+| 14/11/2025  | 08:30-10:30  | 310  | 14: Numpy + Matplotlib  |
+| 18/11/2025  | 08:30-10:30  | 310  | 15: SciPy  |
+| 21/11/2025  | 08:30-10:30  | 310  | 16: Applications to chemistry  |
+| 25/11/2025  | 08:30-10:30  | 310  | 17: SymPy  |
+| 28/11/2025  | 08:30-10:30  | 310  | 18: Image processing  |
+| 02/12/2025  | 08:30-10:30  | 310  | 19: Fourier series *(bring headphones)*  |
+| 05/12/2025  | 08:30-10:30  | 310  | 20: Atomistic simulations with ASE  |
+| 09/12/2025  | 08:30-10:30  | 310  | 21:  |
+| 12/12/2025  | 08:30-10:30  | 310  | 22:  |
+| 16/12/2025  | 08:30-10:30  | 310  | 23:  |
+| 19/12/2025  | 08:30-10:30  | 310  | 24: Free programming practice #3 & Farewell |
 
 
