@@ -1,5 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentclass{beamer}
+%\documentclass{beamer}
+\documentclass[handout]{beamer}
 \mode<presentation>
 \usepackage{beamerthemesplit}
 %\usepackage{verbatim}
@@ -43,11 +44,11 @@
 \begin{frame}[fragile]
   \frametitle{Introduction}
   \begin{itemize}
-  \item Dr Davide Ceresoli, Senior Researcher at CNR-SCITEC
+  \item Dr. Davide Ceresoli, Senior Researcher at CNR-SCITEC
   \item office phone: 02-503-14276
   \item email: davide.ceresoli@cnr.it 
   \item background: \emph{laurea} in Materials Science, PhD in Physics
-  \item activity: ab-initio DFT calculations, molecular dynamics, high-prssure, thermoelectrics, code development (Quantum-Espresso)  
+  \item activity: ab-initio DFT calculations, molecular dynamics, high-pressure, thermoelectrics, code development (Quantum-Espresso)  
   \end{itemize}
 \end{frame}
 
@@ -55,16 +56,17 @@
   \frametitle{Course organization}
   \begin{itemize}
   \item 6 CFU, 48 hours (24 lectures two hours each)
-  \item lectures (settore didattico via Celoria):
+  \item Computer room 310, settore didattico via Celoria:
         \begin{itemize}
-        \item tuesdays 08:30-10:30, room ???
-        \item fridays 08:30-10:30, room ???
+        \item tuesdays 08:30-10:30
+        \item fridays 08:30-10:30
         \end{itemize}
-  \item course website: \url{https://dceresoli.github.io/2025-Programming}
+  \item MyAriel course website (announcements, slides, ...): \url{https://myariel.unimi.it/course/view.php?id=9408}
+  \item Mirror course website (calendar, slides, ...): \url{https://dceresoli.github.io/2025-Programming}
   \end{itemize}
-  \begin{center}
-  \includegraphics[width=4cm]{QR.png}
-  \end{center}
+  %\begin{center}
+  %\includegraphics[width=3cm]{QR.png}
+  %\end{center}
 \end{frame}
 
 \begin{frame}[fragile]
@@ -95,23 +97,36 @@
 \begin{frame}[fragile]
   \frametitle{Programming tools: Python + Jupyter}
   \begin{itemize}
-  \item We'll use the interactive Jupyter notebook most of the time. Here are the tools you need to install:\pause
+  \item We'll use the interactive \textbf{Jupyter} notebook most of the time. Here are the tools you need to install:\pause
   \item Windows: Anaconda \textsl{\small{(too much user friendly!)}}\pause
   \item Windows: WSL with Debian/Ubuntu\\
        \verb|sudo apt install python3 jupyter numpy scipy matplotlib|
-  \item \textbf{Linux} and \textbf{VSCode} \textsl{\small{(the only Microsoft-product that works!)}}\pause
-  \item Mac OS: I have no idea!\pause
-  \item In the cloud: Google Colab \url{https://colab.research.google.com/}
+  \item Linux and VSCode \textsl{\small{(the only Microsoft-product that works!)}}\pause
+  \item Mac OS: I have no experience!\pause
+  \item ...
   \end{itemize}
 \end{frame}
- 
+
+\begin{frame}[fragile]
+  \frametitle{Programming tools: Python + Jupyter}
+  \begin{itemize}
+  \item In the cloud: no installation, only need a browser, you get CPU (and GPU) for free
+    \begin{enumerate}
+        \item Google Colab \url{https://colab.research.google.com/}
+        \item Kaggle \url{https://www.kaggle.com/}
+        \item Binder \url{https://mybinder.org/v2/gh/dceresoli/2025-Programming/HEAD}
+        \item Microsoft Azure Notebooks, Datalore, ...
+    \end{enumerate}
+  \end{itemize}
+\end{frame} 
+
 \begin{frame}[fragile]
   \frametitle{Policies and grading}
   \begin{itemize}
-  \item Lectures: can be interactive, with questions and  interactive problem solving\pause
+  \item Lectures: will be interactive, with questions and interactive problem solving\pause
   \item Attendance is recommended\pause
-  \item \textbf{You are not allowed to use AI assistants such as: ChatGPT, Claude, Gemini!}\pause
-  \item There will be two ``free programming practice'' days to catch up, exercise, propose problems\pause
+  \item \textbf{Please, do not use AI assistants such as: ChatGPT, Claude, Gemini!}\pause
+  \item There will be ``free programming practice'' days to catch up, exercise, propose problems\pause
   \item Final exam: oral, couple of general questions, coding 3--4 notebook cells 
   \end{itemize}
 \end{frame}
@@ -276,22 +291,7 @@ double distance(double x, double y, double z)
   \item Performance is between compiled and interpreted languages\pause
   \item Price to pay is longer startup time and need of support run-time
         libraries\pause
-  \item JIT languages: Java, Javascript, Julia, Wasm, ...
-  \end{itemize}
-  \end{block}
-\end{frame}
-
-\begin{frame}[fragile]
-  \frametitle{From source code to CPU instructions}
-  \begin{block}{In the middle: just-in-time compiled languages}
-  \begin{itemize}
-  \item Source code is processed line-by-line and checked for errors,
-        also interactively\pause
-  \item The code is compiled \emph{on-the-fly} to CPU instructions\pause
-  \item Performance is between compiled and interpreted languages\pause
-  \item Price to pay is longer startup time and need of support run-time
-        libraries\pause
-  \item JIT languages: Java, Javascript, Julia, Wasm, ...
+  \item JIT languages: Java, Javascript, Julia, ...
   \end{itemize}
   \end{block}
 \end{frame}
@@ -391,17 +391,14 @@ for ix in range(Nx):
 \end{frame}
 
 \begin{frame}[fragile]
-  \frametitle{Our first Python program (Linux shell}
+  \frametitle{Our first Python program (Linux shell)}
   \begin{center}
   \includegraphics[width=0.8\textwidth]{hello_cli.png}
   \end{center}
-  \begin{center}
-  \includegraphics[width=0.8\textwidth]{hello_vscode.png}
-  \end{center}
 \end{frame}
 
 \begin{frame}[fragile]
-  \frametitle{Our first Python program (VScode}
+  \frametitle{Our first Python program (VScode)}
   \begin{center}
   \includegraphics[width=0.8\textwidth]{hello_vscode.png}
   \end{center}
@@ -409,9 +406,9 @@ for ix in range(Nx):
 
 
 \begin{frame}[fragile]
-  \frametitle{Our first Python program (Jupyter}
+  \frametitle{Our first Python program (Jupyter)}
   \begin{center}
-  \includegraphics[width=0.8\textwidth]{hello_jupyter.png}
+  \includegraphics[width=0.9\textwidth]{hello_jupyter.png}
   \end{center}
 \end{frame}
 
@@ -423,7 +420,7 @@ for ix in range(Nx):
   \end{center}
   \vspace{2cm}
   \begin{center}
-  Next step: download lecture \#1 notebook from \url{https://github.com/dceresoli/2025-Programming}.
+  Next step: download lecture \#1 notebook from MyAriel or from \url{https://github.com/dceresoli/2025-Programming}.
   \end{center}
 \end{frame}
 
