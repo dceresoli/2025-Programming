@@ -29,7 +29,7 @@ consist in few general questions + coding a simple algorithm.
 
 | Day  | Hour  | Room  | Topic  |
 |---|---|---|---|
-| 26/09/2025  | 08:30-10:30  | 310  | 01: Introduction to Python and tools ([slides](https://raw.githubusercontent.com/dceresoli/2025-Programming/main/lec01-intro-to-python/lec01-slides.pdf)) |
+| 26/09/2025  | 08:30-10:30  | 310  | 01: Introduction to Python and tools ([slides](https://raw.githubusercontent.com/dceresoli/2025-Programming/main/lec01-slides/lec01-slides.pdf), [notebook](lec01.zip) |
 | 30/09/2025  | 08:30-10:30  | 310  | 02: Variables, data types, operators, conditionals, loops   |
 | 03/10/2025  | 08:30-10:30  | 310  | 03: Lists, tuples, sets, dictionaries, strings  |
 | 07/10/2025  | 08:30-10:30  | 310  | 04: Functions: parameters, scope, return values  |
