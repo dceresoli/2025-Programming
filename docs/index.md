@@ -29,12 +29,12 @@ consist in few general questions + coding a simple algorithm.
 
 | Day  | Hour  | Room  | Topic  |
 |---|---|---|---|
-| 26/09/2025  | 08:30-10:30  | 310  | 01: Introduction to Python and tools ([slides](https://raw.githubusercontent.com/dceresoli/2025-Programming/main/lec01-slides/lec01-slides.pdf), [notebook](lec01.zip) |
-| 30/09/2025  | 08:30-10:30  | 310  | 02: Variables, data types, operators, conditionals, loops   |
-| 03/10/2025  | 08:30-10:30  | 310  | 03: Lists, tuples, sets, dictionaries, strings  |
-| 07/10/2025  | 08:30-10:30  | 310  | 04: Functions: parameters, scope, return values  |
-| 10/10/2025  | 08:30-10:30  | 310  | 05: Advanced functions: recursion, passing functions to functions, lambdas |
-| 14/10/2025  | 08:30-10:30  | 310  | 06: Misc topics: random numbers, file I/O, text processing |
+| 26/09/2025  | 08:30-10:30  | 310  | 01: Introduction to Python and tools ([slides](https://raw.githubusercontent.com/dceresoli/2025-Programming/main/lec01-slides/lec01-slides.pdf), [notebook](lec01.zip)) |
+| 30/09/2025  | 08:30-10:30  | 310  | 02: Variables, data types, operators, conditionals, loops ([notebook](lec02.zip)  |
+| 03/10/2025  | 08:30-10:30  | 310  | 03: Lists, tuples, sets, dictionaries, strings ([notebook](lec03.zip) |
+| 07/10/2025  | 08:30-10:30  | 310  | 04: Functions: parameters, scope, return values ([notebook](lec04.zip) |
+| 10/10/2025  | 08:30-10:30  | 310  | 05: Advanced functions: recursion, passing functions to functions, lambdas ([notebook](lec05.zip) |
+| 14/10/2025  | 08:30-10:30  | 310  | 06: Misc topics: random numbers, file I/O, text processing ([notebook](lec06.zip) |
 | 17/10/2025  | 08:30-10:30  | 310  | 07: Free programming practice #1, Q&A  |
 | 21/10/2025  | 08:30-10:30  | 310  | 08: Object Oriented Programming #1  |
 | 24/10/2025  | 08:30-10:30  | 310  | 09: Object Oriented Programming #2  |
