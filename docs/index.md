@@ -15,11 +15,11 @@ in particular [NumPy](https://numpy.org) and [SciPy](https://scipy.org).
 ## General info
 You are free to bring your own laptop. In this case, on first lecture you'll be required to setup
 a working Python system with [Jupyter](https://jupyter.org) or [VSCode](https://code.visualstudio.com).
-If you prefer working *in the cloud*, you will be requested to setup a [Google Colab](https://colab.research.google.com/) account.
+If you prefer working *in the cloud*, you will be requested to setup an account on [Google Colab](https://colab.research.google.com/) or [Kaggle](https://www.kaggle.com/).
 
 ## Text book
 There are plenty of Python books/tutorial/course available for free, on many different topics.
-For example, a good book is [How to think like a computer scientist in Python 3](https://openbookproject.net/thinkcs/python/english3e/)
+For example, a good book is [How to think like a computer scientist in Python 3](https://openbookproject.net/thinkcs/python/english3e/). Python 3 [cheat sheet](python3-cheat-sheet-en-latest.pdf).
 
 ## Exam
 Because of AI code assistants (ChatGPT, Claude, Gemini, ...) the exam will be individual and it will
