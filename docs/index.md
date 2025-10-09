@@ -36,7 +36,7 @@ consist in few general questions + coding a simple algorithm.
 | 10/10/2025  | 08:30-10:30  | 310  | 05: Functions: parameters, scope, return values ([notebook](lec04.zip)) |
 | 14/10/2025  | 08:30-10:30  | 310  | 06: Advanced functions: recursion, passing functions to functions, lambdas ([notebook](lec05.zip)) |
 | 17/10/2025  | 08:30-10:30  | 310  | 07: Misc topics: random numbers, file I/O, text processing ([notebook](lec06.zip)) |
-| 21/10/2025  | 08:30-10:30  | 310  | 08: Free programming practice #1, Q&A ([notebook](lec07.zip)  |
+| 21/10/2025  | 08:30-10:30  | 310  | 08: Free programming practice #1, Q&A ([notebook](lec07.zip))  |
 | 24/10/2025  | 08:30-10:30  | 310  | 09: Object Oriented Programming ([notebook](lec08.zip)) |
 | 28/10/2025  | 08:30-10:30  | 310  | 10: Advanced Object Oriented Programming ([notebook](lec09.zip)) |
 | 31/10/2025  | 08:30-10:30  | 310  | 11: Computer graphics ([notebook](lec10.zip)) |
