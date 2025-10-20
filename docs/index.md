@@ -36,21 +36,21 @@ consist in few general questions + coding a simple algorithm.
 | 10/10/2025  | 08:30-10:30  | 310  | 04: Functions: parameters, scope, return values ([notebook](lec04.zip)) |
 | 14/10/2025  | 08:30-10:30  | 310  | 05: Advanced functions: recursion, passing functions to functions, lambdas ([notebook](lec05.zip)) |
 | 17/10/2025  | 08:30-10:30  | 310  | 06: Misc topics: random numbers, file I/O, text processing ([notebook](lec06.zip)) |
-| 21/10/2025  | 08:30-10:30  | 310  | 07: Free programming practice #1, Q&A ([notebook](lec07.zip))  |
-| 24/10/2025  | 08:30-10:30  | 310  | 08: Object Oriented Programming ([notebook](lec08.zip)) |
-| 28/10/2025  | 08:30-10:30  | 310  | 09: Advanced Object Oriented Programming ([notebook](lec09.zip)) |
-| 31/10/2025  | 08:30-10:30  | 310  | 10: Computer graphics ([notebook](lec10.zip)) |
-| 07/11/2025  | 08:30-10:30  | 310  | 11: Let's code a game ([notebook](lec11.zip)) |
-| 11/11/2025  | 08:30-10:30  | 310  | 12: Free programming practice #2, Q&A  |
-| 14/11/2025  | 08:30-10:30  | 310  | 13: NumPy  |
-| 18/11/2025  | 08:30-10:30  | 310  | 14: Numpy + Matplotlib  |
-| 21/11/2025  | 08:30-10:30  | 310  | 15: SciPy  |
-| 25/11/2025  | 08:30-10:30  | 310  | 16: Applications to chemistry  |
-| 28/11/2025  | 08:30-10:30  | 310  | 17: SymPy  |
-| 02/12/2025  | 08:30-10:30  | 310  | 18: Image processing  |
-| 05/12/2025  | 08:30-10:30  | 310  | 19: Fourier series *(bring headphones)*  |
-| 09/12/2025  | 08:30-10:30  | 310  | 20: Atomistic simulations with ASE  |
-| 12/12/2025  | 08:30-10:30  | 310  | 21:  |
-| 16/12/2025  | 08:30-10:30  | 310  | 22:  |
-| 19/12/2025  | 08:30-10:30  | 310  | 23: Free programming practice #3 & Farewel |
+| 21/10/2025  | 08:30-10:30  | 310  | 06b: Misc topics: random numbers, file I/O, text processing (continued) |
+| 24/10/2025  | 08:30-10:30  | 310  | 07: Free programming practice #1, Q&A ([notebook](lec07.zip))  |
+| 28/10/2025  | 08:30-10:30  | 310  | 08: Object Oriented Programming ([notebook](lec08.zip)) |
+| 31/10/2025  | 08:30-10:30  | 310  | 09: Advanced Object Oriented Programming ([notebook](lec09.zip)) |
+| 07/11/2025  | 08:30-10:30  | 310  | 10: Computer graphics ([notebook](lec10.zip)) |
+| 11/11/2025  | 08:30-10:30  | 310  | 11: Let's code a game ([notebook](lec11.zip)) |
+| 14/11/2025  | 08:30-10:30  | 310  | 12: Free programming practice #2, Q&A  |
+| 18/11/2025  | 08:30-10:30  | 310  | 13: NumPy  |
+| 21/11/2025  | 08:30-10:30  | 310  | 14: Numpy + Matplotlib  |
+| 25/11/2025  | 08:30-10:30  | 310  | 15: SciPy  |
+| 28/11/2025  | 08:30-10:30  | 310  | 16: Applications to chemistry  |
+| 02/12/2025  | 08:30-10:30  | 310  | 17: Image processing |
+| 05/12/2025  | 08:30-10:30  | 310  | 18: Fourier series *(bring headphones)* |
+| 09/12/2025  | 08:30-10:30  | 310  | 19: Atomistic simulations with ASE |
+| 12/12/2025  | 08:30-10:30  | 310  | 20: |
+| 16/12/2025  | 08:30-10:30  | 310  | 21: |
+| 19/12/2025  | 08:30-10:30  | 310  | 22: Free programming practice #3 & Farewel |
 
