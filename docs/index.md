@@ -48,9 +48,9 @@ consist in few general questions + coding a simple algorithm.
 | 25/11/2025  | 08:30-10:30  | 310  | 13: Numpy + Matplotlib ([notebook](lec13.zip)) |
 | 28/11/2025  | 08:30-10:30  | 310  | 14: SciPy ([notebook](lec14.zip)) |
 | 02/12/2025  | 08:30-10:30  | 310  | 15: Applications to chemistry ([notebook](lec15.zip)) |
-| 05/12/2025  | 08:30-10:30  | 310  | 16: Image processing ([notebook](lec16.zip)) |
-| 09/12/2025  | 08:30-10:30  | 310  | 17: Fourier series *(bring headphones)* ([notebook](lec17.zip)) |
-| 12/12/2025  | 08:30-10:30  | 310  | 18: Atomistic simulations with ASE ([notebook](lec18.zip)) |
+| 05/12/2025  | 08:30-10:30  | 310  | 16: Basic ML with scikit-learn ([notebook](lec16.zip)) |
+| 09/12/2025  | 08:30-10:30  | 310  | 17: Atomistic simulations with ASE ([notebook](lec17.zip)) |
+| 12/12/2025  | 08:30-10:30  | 310  | 18: Python in real life ([notebook and scripts](lec18.zip)) |
 | 16/12/2025  | 08:30-10:30  | 310  | 19: Neural networks ([notebook](lec19.zip)) |
 | 19/12/2025  | 08:30-10:30  | 310  | 20: Free programming practice #3 & Farewel |
 
