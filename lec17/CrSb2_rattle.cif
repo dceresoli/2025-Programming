@@ -1,0 +1,310 @@
+data_image0
+_chemical_formula_structural       Cr2Sb4
+_chemical_formula_sum              "Cr2 Sb4"
+_cell_length_a       6.03133
+_cell_length_b       6.93056
+_cell_length_c       3.43709
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.01462  0.00289  0.01424  1.0000
+  Cr  Cr2       1.0  0.51858  0.51347  0.48578  1.0000
+  Sb  Sb1       1.0  0.18530  0.36289  0.99850  1.0000
+  Sb  Sb2       1.0  0.82598  0.63705  0.02116  1.0000
+  Sb  Sb3       1.0  0.68374  0.13689  0.50646  1.0000
+  Sb  Sb4       1.0  0.32534  0.87476  0.49702  1.0000
+data_image1
+_chemical_formula_structural       Cr2Sb4
+_chemical_formula_sum              "Cr2 Sb4"
+_cell_length_a       6.03133
+_cell_length_b       6.93056
+_cell_length_c       3.43709
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.02809  0.99847  0.00655  1.0000
+  Cr  Cr2       1.0  0.50968  0.51972  0.45230  1.0000
+  Sb  Sb1       1.0  0.19977  0.35740  0.00314  1.0000
+  Sb  Sb2       1.0  0.82391  0.64760  0.99119  1.0000
+  Sb  Sb3       1.0  0.68106  0.13412  0.52295  1.0000
+  Sb  Sb4       1.0  0.31622  0.87352  0.48425  1.0000
+data_image2
+_chemical_formula_structural       Cr2Sb4
+_chemical_formula_sum              "Cr2 Sb4"
+_cell_length_a       6.03133
+_cell_length_b       6.93056
+_cell_length_c       3.43709
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.02464  0.99807  0.97548  1.0000
+  Cr  Cr2       1.0  0.52328  0.50678  0.44006  1.0000
+  Sb  Sb1       1.0  0.20394  0.34842  0.98775  1.0000
+  Sb  Sb2       1.0  0.81637  0.65158  0.02453  1.0000
+  Sb  Sb3       1.0  0.68141  0.12606  0.53079  1.0000
+  Sb  Sb4       1.0  0.31128  0.87338  0.50134  1.0000
+data_image3
+_chemical_formula_structural       Cr2Sb4
+_chemical_formula_sum              "Cr2 Sb4"
+_cell_length_a       6.03133
+_cell_length_b       6.93056
+_cell_length_c       3.43709
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.03946  0.00122  0.97688  1.0000
+  Cr  Cr2       1.0  0.50783  0.50478  0.43490  1.0000
+  Sb  Sb1       1.0  0.20325  0.34389  0.98711  1.0000
+  Sb  Sb2       1.0  0.81242  0.64210  0.03740  1.0000
+  Sb  Sb3       1.0  0.68871  0.13839  0.53152  1.0000
+  Sb  Sb4       1.0  0.30792  0.86945  0.47884  1.0000
+data_image4
+_chemical_formula_structural       Cr2Sb4
+_chemical_formula_sum              "Cr2 Sb4"
+_cell_length_a       6.03133
+_cell_length_b       6.93056
+_cell_length_c       3.43709
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.03988  0.00482  0.96239  1.0000
+  Cr  Cr2       1.0  0.51358  0.50176  0.41185  1.0000
+  Sb  Sb1       1.0  0.19788  0.34821  0.99195  1.0000
+  Sb  Sb2       1.0  0.80290  0.64656  0.03612  1.0000
+  Sb  Sb3       1.0  0.69224  0.14079  0.51469  1.0000
+  Sb  Sb4       1.0  0.31083  0.86507  0.50135  1.0000
+data_image5
+_chemical_formula_structural       Cr2Sb4
+_chemical_formula_sum              "Cr2 Sb4"
+_cell_length_a       6.03133
+_cell_length_b       6.93056
+_cell_length_c       3.43709
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.04354  0.00244  0.99776  1.0000
+  Cr  Cr2       1.0  0.51149  0.50255  0.43487  1.0000
+  Sb  Sb1       1.0  0.19034  0.34394  0.99467  1.0000
+  Sb  Sb2       1.0  0.80017  0.63796  0.03314  1.0000
+  Sb  Sb3       1.0  0.68926  0.14514  0.49047  1.0000
+  Sb  Sb4       1.0  0.30503  0.87338  0.52836  1.0000
+data_image6
+_chemical_formula_structural       Cr2Sb4
+_chemical_formula_sum              "Cr2 Sb4"
+_cell_length_a       6.03133
+_cell_length_b       6.93056
+_cell_length_c       3.43709
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.04096  0.00770  0.00092  1.0000
+  Cr  Cr2       1.0  0.50404  0.48461  0.44815  1.0000
+  Sb  Sb1       1.0  0.19969  0.33302  0.01852  1.0000
+  Sb  Sb2       1.0  0.79661  0.65694  0.04189  1.0000
+  Sb  Sb3       1.0  0.68648  0.15407  0.49209  1.0000
+  Sb  Sb4       1.0  0.30610  0.87393  0.52611  1.0000
+data_image7
+_chemical_formula_structural       Cr2Sb4
+_chemical_formula_sum              "Cr2 Sb4"
+_cell_length_a       6.03133
+_cell_length_b       6.93056
+_cell_length_c       3.43709
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.05497  0.00433  0.00140  1.0000
+  Cr  Cr2       1.0  0.50742  0.47892  0.44818  1.0000
+  Sb  Sb1       1.0  0.19968  0.32036  0.03333  1.0000
+  Sb  Sb2       1.0  0.80158  0.65243  0.03940  1.0000
+  Sb  Sb3       1.0  0.69067  0.15218  0.48856  1.0000
+  Sb  Sb4       1.0  0.29405  0.87793  0.52791  1.0000
+data_image8
+_chemical_formula_structural       Cr2Sb4
+_chemical_formula_sum              "Cr2 Sb4"
+_cell_length_a       6.03133
+_cell_length_b       6.93056
+_cell_length_c       3.43709
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.05573  0.01221  0.97308  1.0000
+  Cr  Cr2       1.0  0.49592  0.46235  0.48324  1.0000
+  Sb  Sb1       1.0  0.21400  0.33627  0.04489  1.0000
+  Sb  Sb2       1.0  0.80968  0.64389  0.06728  1.0000
+  Sb  Sb3       1.0  0.68136  0.14739  0.48305  1.0000
+  Sb  Sb4       1.0  0.28749  0.88413  0.52455  1.0000
+data_image9
+_chemical_formula_structural       Cr2Sb4
+_chemical_formula_sum              "Cr2 Sb4"
+_cell_length_a       6.03133
+_cell_length_b       6.93056
+_cell_length_c       3.43709
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Cr  Cr1       1.0  0.05573  0.01012  0.95684  1.0000
+  Cr  Cr2       1.0  0.49582  0.45962  0.47624  1.0000
+  Sb  Sb1       1.0  0.20143  0.33273  0.04139  1.0000
+  Sb  Sb2       1.0  0.80431  0.64848  0.09259  1.0000
+  Sb  Sb3       1.0  0.68382  0.15250  0.50957  1.0000
+  Sb  Sb4       1.0  0.29106  0.89526  0.51145  1.0000

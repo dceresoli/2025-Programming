@@ -1,0 +1,42 @@
+&CONTROL
+   calculation      = 'scf'
+   prefix           = 'crsb2'
+/
+&SYSTEM
+   ecutwfc          = 35
+   ecutrho          = 350
+   occupations      = 'smearing'
+   degauss          = 0.005
+   ntyp             = 2
+   nat              = 6
+   ibrav            = 0
+/
+&ELECTRONS
+   conv_thr         = 1e-08
+   mixing_beta      = 0.1
+/
+&IONS
+/
+&CELL
+/
+
+ATOMIC_SPECIES
+Cr 51.9961 cr_pbesol_v1.5.uspp.F.UPF
+Sb 121.76 sb_pbesol_v1.4.uspp.F.UPF
+
+K_POINTS automatic
+6 5 10  0 0 0
+
+CELL_PARAMETERS angstrom
+6.03132998000000 0.00000000000000 0.00000000000000
+0.00000000000000 6.93056057000000 0.00000000000000
+0.00000000000000 0.00000000000000 3.43708937000000
+
+ATOMIC_POSITIONS angstrom
+Cr 0.0000000000 0.0000000000 0.0000000000 
+Cr 3.0156649900 3.4652802850 1.7185446850 
+Sb 1.0701265744 2.5226245246 0.0000000000 
+Sb 4.9612034056 4.4079360454 0.0000000000 
+Sb 4.0857915644 0.9426557604 1.7185446850 
+Sb 1.9455384156 5.9879048096 1.7185446850 
+
