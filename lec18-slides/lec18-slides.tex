@@ -1,0 +1,234 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\documentclass{beamer}
+\documentclass[handout]{beamer}
+\mode<presentation>
+\usepackage{beamerthemesplit}
+%\usepackage{verbatim}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage[normalem]{ulem}
+\usetheme{Madrid}
+\usecolortheme{default}
+\setbeamerfont*{frametitle}{size=\normalsize}
+\setbeamertemplate{navigation symbols}{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title[Prog4Chem]{Spring 2025: Programming for chemistry}
+\subtitle{(lec18: using Python CLI \& WEB)}
+\author[Davide Ceresoli]{Davide Ceresoli (davide.ceresoli@cnr.it)}
+\date{\today}
+\institute[CNR-SCITEC]{Instituto di Scienze e Tecnologie Chimiche ``G. Natta'' (CNR-SCITEC)}
+\pgfdeclareimage[height=.7cm]{university-logo}{logo_small.png}
+\logo{\pgfuseimage{university-logo}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}{Outline}
+\tableofcontents
+\end{frame}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Virtual environments}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]
+  \frametitle{Virtual environments}
+  \begin{itemize}
+  \item Python has a huge collection ($\sim$300,000) of thirdy-part packages, listed at \url{http://pypi.org}
+  \item Many are actively maintained, other not...
+  \item ...dependency hell: packages might require the installation of \textbf{specific} NumPy/SciPy versions
+  \item \textbf{Virtual environments} keep packages and their dependencies separated!
+  \item You might want to try different versions of the same package (i.e. stable vs development).  
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Virtual environments}
+  Both \texttt{conda} and standard Python offer the possibility to create \textit{venvs}:
+
+  \begin{block}{conda}
+  \begin{itemize}
+      \item create venv: \texttt{conda create -n prog4chm}
+      \item activate venv: \texttt{conda activate prog4chem}
+      \item install packages: \texttt{conda install packages...}
+      \item deactivate venv: \texttt{conda deactivate}
+  \end{itemize}
+  \end{block}
+  \begin{block}{Python}
+  \begin{itemize}
+      \item create venv: \texttt{python -m venv prog4chm}
+      \item activate venv: \texttt{. ./prog4chem/bin/activate}
+      \item install packages: \texttt{pip install packages...}
+      \item deactivate venv: \texttt{deactivate}
+  \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Virtual environments}
+  \begin{itemize}
+  \item Of course, it is necessary to type this commands in the terminal!
+  \item In Linux/MacOS/WSL the terminal runs a \emph{Unix shell}, i.e. Bash or Zsh
+  \item In Windows, the terminal runs either the DOS or the Powershell
+  \item Exercise: create a \texttt{prog4chem} environment and install the following packages:
+        \texttt{numpy, scipy, matplotlib, streamlit}
+  \item Get familiar with the CLI (Command Line Interface), create/activate/deactivate venvs, etc... 
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{What's in a virtual environment}
+  \begin{center}
+  \includegraphics[width=0.9\textwidth]{MACE-venv.png}
+  \end{center}
+\end{frame}
+
+
+\begin{frame}[fragile]
+  \frametitle{What's in a virtual environment}
+  \begin{itemize}
+  \item Once you activate a venv, the prompt changes and indicates the active one
+  \item In the \texttt{bin} directory you will find a link to the Python interpreter
+  \item Packages are searched in the {lib/python-3.11/site-packages} directory 
+  \end{itemize}
+  \begin{center}
+  \includegraphics[width=\textwidth]{MACE-venv2.png}
+  \end{center}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Python scripts}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]
+  \frametitle{Python scripts}
+  \begin{itemize}
+      \item Python scripts are text files with \texttt{.py} extension, as opposed to Jupyter notebooks which have the \texttt{.ipynb} extension
+      \item They are executed from the first to the last line as a whole
+      \item The input source is the keyboard \emph{(standard input)}
+      \item The output is the terminal \emph{(standard output})
+      \item Both can be substituted by files using \emph{redirection}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Python scripts}
+  \begin{itemize}
+      \item Conventionally, the first line must be with: \verb|#!/usr/bin/env python|
+      \item In Linux/MacOS you can make a script \emph{executable} with:\\
+      \texttt{chmod 0755 script.py}\\
+      then launch it simply with:\\
+      \texttt{./script.py  parameters...}
+      \item In Windows you must type: \texttt{python script.py parameters...}
+      \item CLI parameters are found in the \texttt{sys.argv[]} list of strings
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Exercise}
+  \begin{block}{Let's make scripts to solve a second order polynomial}
+      \begin{itemize}
+      \item 1st version: use \texttt{input()} to ask for the three coefficients
+      \item 2nd version: get the three coefficients from the command line
+      \end{itemize}
+  \end{block}
+  \begin{block}{}
+  Note: \texttt{sys.argv[0]} is the name of the script, \texttt{sys.argv[1]} will be the first CLI
+  parameter. In both scripts, convert strings to floating point numbers using \texttt{float()}
+  \end{block}
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Input/output redirection}
+  \begin{itemize}
+    \item Both scripts can get their input from a file using \verb|<file|...
+    \item The CLI version can output easily the results in a file using \verb|>file| and \verb|>>file|...
+    \item For instance: \\
+    \texttt{./solve\_interactive.py <coefficients.dat}\\
+    \texttt{./solve\_cli.py 1 3 -7 >roots.dat}
+    \item If you remove every printing message you can create a \emph{filter} script:\\
+    \texttt{./solve\_filter.py <coefficients.dat >root.dat}\\
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Argument parsing}
+  \begin{block}{For a more flexible CLI, use the powerful \texttt{argparse} module}
+  Let's look at the example script \texttt{MACE-MD-NVT.py}
+  \end{block}
+  \begin{center}
+  \includegraphics[width=\textwidth]{argparse1.png}
+  \end{center}
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Argparse}
+  \begin{center}
+  \includegraphics[width=0.9\textwidth]{argparse2.png}
+  \end{center}
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Interlude}
+  \begin{block}{High Performance Computing (HPC)}
+  \begin{itemize}
+  \item CPU vs GPU (demo on workstation)
+  \item non-interactive batch jobs (demo on Leonardo@CINECA)
+  \end{itemize}
+  \end{block}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Web apps with \texttt{streamlit}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]
+  \frametitle{Streamlit (\url{https://streamlit.io})}
+  \begin{itemize}
+  \item The \texttt{streamlit} package is a super-easy way to create Web applications from your scripts
+  \item It provides \emph{input()-} and \emph{print()-like} functions that work in a browser
+  \item Streamlit apps will be interactive and \emph{reactive!}
+  \item Create a \texttt{requirements.txt} file with the list of packages you need
+  \item Then create a \texttt{streamlit\_app.py} source file
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Our first web app}
+  \begin{itemize}
+    \item Activate the \texttt{prog4chem} environment, make sure \texttt{streamlit} is installed
+    \item Go to the \texttt{second\_order\_webapp} directory...
+    \item ...and type: \texttt{streamlit start}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Final exercise}
+  \begin{block}{Impress the experimental colleagues}
+  Create a \emph{webapp} to balance chemical reactions!
+  \end{block}
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Conclusions}
+  \begin{center}
+  \includegraphics[width=0.85\textwidth]{yoda.jpg}
+  \end{center}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+

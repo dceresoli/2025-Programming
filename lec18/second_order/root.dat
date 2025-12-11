@@ -1,0 +1,2 @@
+This script find the real roots of a second order polynomial: a*x**2 + b*x + c = 0
+Enter a: Enter b: Enter c: Roots: -7.405124837953327 0.405124837953327

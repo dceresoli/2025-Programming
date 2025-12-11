@@ -50,7 +50,7 @@ consist in few general questions + coding a simple algorithm.
 | 02/12/2025  | 08:30-10:30  | 310  | 15: Applications to chemistry ([notebook](lec15.zip)) |
 | 05/12/2025  | 08:30-10:30  | 310  | 16: Basic ML with scikit-learn ([notebook](lec16.zip)) |
 | 09/12/2025  | 08:30-10:30  | 310  | 17: Atomistic simulations with ASE ([notebook](lec17.zip)) |
-| 12/12/2025  | 08:30-10:30  | 310  | 18: Python in real life ([notebook and scripts](lec18.zip)) |
+| 12/12/2025  | 08:30-10:30  | 310  | 18: Python in real life ([slides](https://raw.githubusercontent.com/dceresoli/2025-Programming/main/lec18-slides/lec18-slides.pdf) [scripts](lec18.zip)) |
 | 16/12/2025  | 08:30-10:30  | 310  | 19: Neural networks ([notebook](lec19.zip)) |
 | 19/12/2025  | 08:30-10:30  | 310  | 20: Free programming practice #3 & Farewel |
 
