@@ -54,3 +54,5 @@ consist in few general questions + coding a simple algorithm.
 | 16/12/2025  | 08:30-10:30  | 310  | 19: Problems in Python ([notebook](lec19.zip)) |
 | 19/12/2025  | 08:30-10:30  | 310  | 20: Free programming practice #3 & Farewel |
 
+[Notebooks done](notebooks-done.zip)
+
